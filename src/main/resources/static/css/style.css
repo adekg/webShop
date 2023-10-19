@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: rgba(233, 233, 194, 0.952);
+}
+
+h2 {
+    color: blue;
+}
+
+header {
+    background-color: rgba(211, 190, 190, 0.836);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.main-content {
+    background-color: blanchedalmond;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: burlywood;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    background-color: rgba(170, 145, 112, 0.801);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 3px;
+    width: calc(100% - 6px);
+    margin-top: 0;
+}
+
+.item img {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.add-btn {
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    width: 60%;
+    text-align: center;
+    padding: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.add-btn:hover {
+    background-color: rgb(172, 132, 83);
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+}
+
+.cart:hover {
+    color: rgb(172, 132, 83);
+}
+
+table, tr {
+    width: 80%;
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+    border: 1px solid black;;
+}
+
+td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mbtn {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+td p {
+    margin: 3px;
+    padding: 5px
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    width: 100%;
+}
+
+.infoMsg {
+    width: 100%;
+    color: green;
+    font-size: 1.3rem;
+    text-align: center;
+}
